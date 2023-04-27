@@ -12,7 +12,6 @@ def exercise(arg):
             answer = input(f"If you want to exit input \"exit\"\n\nWhat is {number} equivalent in binary?\n-> ")
             check = "0b" + answer == str(bin(number))
         elif arg == 'h':
-            print(hex(number))
             answer = input(f"If you want to exit input \"exit\"\n\nWhat is {number} equivalent in hexadecimal?\n-> ")
             check = "0x" + answer == str(hex(number))
         else:
